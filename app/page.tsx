@@ -34,6 +34,14 @@ export default function Home() {
         <p className="text-gray-600 text-lg max-w-xl">
           Your one-stop solution for managing everything like a boss.
         </p>
+        <Button
+          variant="link"
+          className="mt-6 px-8 py-3 cursor-pointer"
+          onClick={goToLogin}
+        >
+          Get Started
+          <LogInIcon />
+        </Button>
       </main>
 
       {/* Footer */}
